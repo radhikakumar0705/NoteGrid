@@ -1,0 +1,21 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "A simple and efficient **Notes App** built using the **MERN stack (MongoDB, Express, React, Node.js)**.  \r The app allows users to create, view, edit, and delete notes with a clean UI and persistent storage.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhikakumar0705/notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhikakumar0705/notes/issues"
+  },
+  "homepage": "https://github.com/radhikakumar0705/notes#readme"
+}
